@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="128" viewBox="0 0 2148 1048">
+  <defs>
+    <linearGradient id="bgCal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ff5f57"/><stop offset="100%" stop-color="#d92c1f"/></linearGradient>
+    <linearGradient id="shCal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+
+    <linearGradient id="bgCli" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3a3a3c"/><stop offset="100%" stop-color="#0a0a0a"/></linearGradient>
+    <linearGradient id="shCli" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+
+    <linearGradient id="bgGh" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3a3a3c"/><stop offset="100%" stop-color="#000000"/></linearGradient>
+    <linearGradient id="shGh" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+
+    <linearGradient id="bgLink" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5ac8fa"/><stop offset="100%" stop-color="#0a84ff"/></linearGradient>
+    <linearGradient id="shLink" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+
+    <linearGradient id="bgMail" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#64d2ff"/><stop offset="100%" stop-color="#007aff"/></linearGradient>
+    <linearGradient id="shMail" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+
+    <linearGradient id="bgNote" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffd60a"/><stop offset="100%" stop-color="#ff9f0a"/></linearGradient>
+    <linearGradient id="shNote" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+
+    <linearGradient id="bgPdf" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ff6961"/><stop offset="100%" stop-color="#c62828"/></linearGradient>
+    <linearGradient id="shPdf" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+
+    <radialGradient id="bgSpot" cx="35%" cy="30%" r="80%"><stop offset="0%" stop-color="#3be477"/><stop offset="100%" stop-color="#1db954"/></radialGradient>
+    <linearGradient id="shSpot" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+  </defs>
+
+  <!-- 1: Calendar -->
+  <g transform="translate(0,0) scale(0.5)">
+    <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bgCal)"/>
+    <rect x="32" y="32" width="960" height="480" rx="224" fill="url(#shCal)"/>
+    <rect x="212" y="240" width="600" height="560" rx="64" fill="#ffffff"/>
+    <rect x="212" y="240" width="600" height="150" rx="64" fill="#f2f2f2"/>
+    <rect x="212" y="326" width="600" height="64" fill="#f2f2f2"/>
+    <rect x="320" y="170" width="48" height="140" rx="24" fill="#ffffff"/>
+    <rect x="656" y="170" width="48" height="140" rx="24" fill="#ffffff"/>
+    <text x="512" y="640" font-family="Helvetica, Arial, sans-serif" font-size="260" font-weight="700" fill="#d92c1f" text-anchor="middle">17</text>
+  </g>
+
+  <!-- 2: Terminal -->
+  <g transform="translate(524,0) scale(0.5)">
+    <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bgCli)"/>
+    <rect x="32" y="32" width="960" height="480" rx="224" fill="url(#shCli)"/>
+    <rect x="150" y="150" width="724" height="724" rx="48" fill="#1c1c1e" stroke="#3a3a3c" stroke-width="6"/>
+    <polyline points="260,400 420,512 260,624" fill="none" stroke="#34d058" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="470" y1="624" x2="740" y2="624" stroke="#34d058" stroke-width="46" stroke-linecap="round"/>
+  </g>
+
+  <!-- 3: GitHub -->
+  <g transform="translate(1048,0) scale(0.5)">
+    <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bgGh)"/>
+    <rect x="32" y="32" width="960" height="480" rx="224" fill="url(#shGh)"/>
+    <path transform="translate(212,192) scale(25)" fill="#ffffff" d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.06.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .31.2.68.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/>
+  </g>
+
+  <!-- 4: Link -->
+  <g transform="translate(1572,0) scale(0.5)">
+    <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bgLink)"/>
+    <rect x="32" y="32" width="960" height="480" rx="224" fill="url(#shLink)"/>
+    <g fill="none" stroke="#ffffff" stroke-width="60" stroke-linecap="round">
+      <path d="M420 560c0 90 70 160 160 160l120-120c88-88 88-232 0-320s-232-88-320 0l-50 50"/>
+      <path d="M604 464c0-90-70-160-160-160L324 424c-88 88-88 232 0 320s232 88 320 0l50-50"/>
+    </g>
+  </g>
+
+  <!-- 5: Mail -->
+  <g transform="translate(0,524) scale(0.5)">
+    <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bgMail)"/>
+    <rect x="32" y="32" width="960" height="480" rx="224" fill="url(#shMail)"/>
+    <rect x="160" y="330" width="704" height="440" rx="56" fill="#ffffff"/>
+    <path d="M195 355 L512 590 L829 355" fill="none" stroke="#007aff" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- 6: Notes -->
+  <g transform="translate(524,524) scale(0.5)">
+    <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bgNote)"/>
+    <rect x="32" y="32" width="960" height="480" rx="224" fill="url(#shNote)"/>
+    <rect x="220" y="180" width="584" height="664" rx="40" fill="#ffffff"/>
+    <rect x="220" y="180" width="584" height="130" rx="40" fill="#fff6e0"/>
+    <line x1="220" y1="310" x2="804" y2="310" stroke="#f0d9a0" stroke-width="6"/>
+    <line x1="300" y1="450" x2="724" y2="450" stroke="#d9d9d9" stroke-width="24" stroke-linecap="round"/>
+    <line x1="300" y1="540" x2="724" y2="540" stroke="#d9d9d9" stroke-width="24" stroke-linecap="round"/>
+    <line x1="300" y1="630" x2="600" y2="630" stroke="#d9d9d9" stroke-width="24" stroke-linecap="round"/>
+  </g>
+
+  <!-- 7: PDF -->
+  <g transform="translate(1048,524) scale(0.5)">
+    <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bgPdf)"/>
+    <rect x="32" y="32" width="960" height="480" rx="224" fill="url(#shPdf)"/>
+    <path d="M300 160h300l160 160v544a40 40 0 0 1-40 40H300a40 40 0 0 1-40-40V200a40 40 0 0 1 40-40z" fill="#ffffff"/>
+    <path d="M600 160v120a40 40 0 0 0 40 40h120z" fill="#f0c9c7"/>
+    <text x="512" y="700" font-family="Helvetica, Arial, sans-serif" font-size="150" font-weight="800" fill="#c62828" text-anchor="middle">PDF</text>
+  </g>
+
+  <!-- 8: Spotify -->
+  <g transform="translate(1572,524) scale(0.5)">
+    <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bgSpot)"/>
+    <rect x="32" y="32" width="960" height="480" rx="224" fill="url(#shSpot)"/>
+    <g fill="none" stroke="#ffffff" stroke-width="46" stroke-linecap="round">
+      <path d="M270 430c180-56 360-40 500 46"/>
+      <path d="M290 560c150-44 320-32 450 40"/>
+      <path d="M310 690c120-32 260-24 370 32"/>
+    </g>
+  </g>
+
+</svg>

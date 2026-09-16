@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff6961"/>
+      <stop offset="100%" stop-color="#c62828"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bg)"/>
+  <rect x="32" y="32" width="960" height="480" rx="224" fill="url(#sheen)"/>
+  <path d="M300 160h300l160 160v544a40 40 0 0 1-40 40H300a40 40 0 0 1-40-40V200a40 40 0 0 1 40-40z" fill="#ffffff"/>
+  <path d="M600 160v120a40 40 0 0 0 40 40h120z" fill="#f0c9c7"/>
+  <text x="512" y="700" font-family="Helvetica, Arial, sans-serif" font-size="150" font-weight="800" fill="#c62828" text-anchor="middle">PDF</text>
+</svg>

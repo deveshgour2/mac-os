@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd60a"/>
+      <stop offset="100%" stop-color="#ff9f0a"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#bg)"/>
+  <rect x="32" y="32" width="960" height="480" rx="224" fill="url(#sheen)"/>
+  <rect x="220" y="180" width="584" height="664" rx="40" fill="#ffffff"/>
+  <rect x="220" y="180" width="584" height="130" rx="40" fill="#fff6e0"/>
+  <line x1="220" y1="310" x2="804" y2="310" stroke="#f0d9a0" stroke-width="6"/>
+  <line x1="300" y1="450" x2="724" y2="450" stroke="#d9d9d9" stroke-width="24" stroke-linecap="round"/>
+  <line x1="300" y1="540" x2="724" y2="540" stroke="#d9d9d9" stroke-width="24" stroke-linecap="round"/>
+  <line x1="300" y1="630" x2="600" y2="630" stroke="#d9d9d9" stroke-width="24" stroke-linecap="round"/>
+</svg>

@@ -14,6 +14,7 @@ main{
     width: 100%;
     background-image: url(./wallpaper.avif);
     background-position: center;
+    background-size: cover;
     object-fit: contain;
     background-repeat: no-repeat;
 }
