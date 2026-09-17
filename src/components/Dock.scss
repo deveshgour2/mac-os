@@ -6,8 +6,8 @@
    left: 50%;
    transform: translateX(-50%);
      background-color: rgba(63, 63, 63, 0.395);
-     padding-inline: 1rem;
-     border-radius: 0.75rem;
+     padding-inline:  0.75rem;
+     border-radius: 0.5rem;
      padding-block: 0.75rem;
      backdrop-filter: blur(7px)
 }
@@ -31,8 +31,7 @@
     transform: scale(1.15) translateY(-10%); 
 }
 
-img{
-    height: 40px;
-    width: 40px;
-   
+.dock img {
+    height: 2rem;
+    width: 2rem;
 }
