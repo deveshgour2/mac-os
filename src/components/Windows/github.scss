@@ -1,0 +1,74 @@
+.cards {
+    overflow: scroll;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
+    justify-content: center ;
+    padding-bottom: 15rem;
+
+   
+
+    .card {
+        flex-grow: 1;
+        flex-basis: 20rem;
+          max-width: 20rem;
+        padding: 0.75rem;
+        background-color: rgb(39, 39, 39);
+         border-radius: 1rem;
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+
+        img {
+            height: 9.5rem;
+            width: 100%;
+            border-radius: 0.3rem;
+            object-fit: cover;
+            background-position: center;
+        }
+
+        h1 {
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.3rem
+        }
+
+        .description {
+            opacity: 0.7;
+            font-size: 0.7rem;
+            line-height: 1rem;
+            word-spacing: 0.2rem;
+        }
+
+        .tags {
+            display: flex;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+
+            .tag {
+                background-color: #353735;
+                width: fit-content;
+                padding-inline: 0.75rem;
+                padding-block: 0.5rem;
+                border-radius: 0.5rem;
+                white-space: nowrap;
+                font-size: 0.6rem;
+            }
+        }
+
+        .links{
+            display: flex;
+            gap: 2rem;
+           
+            a{
+                 color: aliceblue;
+                 text-decoration: none ;
+            }
+        }
+    }
+}
