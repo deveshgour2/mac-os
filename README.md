@@ -1,16 +1,75 @@
-# React + Vite
+# macOS Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built as an interactive macOS desktop simulation — draggable, resizable windows, a magnifying Dock, a working terminal, and custom app icons, all running in the browser.
 
-Currently, two official plugins are available:
+**Live Demo:** [mac-os-portfolio.vercel.app](https://mac-os-portfolio-lzjdontdo-deveshgour2s-projects.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🖥️ **macOS-style Desktop UI** — menu bar with live clock, wallpaper, and dock
+- 🪟 **Draggable & Resizable Windows** — powered by `react-rnd`, just like real macOS windows
+- 🔍 **Dock Magnification** — icons scale smoothly as your cursor moves across the dock, mirroring macOS's native dock behavior
+- 💻 **Interactive Terminal (CLI)** — an in-browser terminal emulator built with `react-console-emulator`
+- 🎨 **Custom App Icons** — hand-crafted SVG icons (Calendar, Mail, Notes, PDF Viewer, Terminal, GitHub, Safari/Link, Spotify) styled to match macOS's rounded-square, gradient aesthetic
+- 📱 Responsive layout
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Vite)
+- **react-rnd** — draggable/resizable window management
+- **react-console-emulator** — terminal emulation
+- **CSS3** — glassmorphism/blur effects, gradients, animations
+- **Vercel** — deployment
+
+## 📂 Project Structure
+
+\```
+src/
+├── components/
+│   ├── Windows/
+│   │   └── MacWindows.jsx     # Draggable/resizable window wrapper
+│   ├── Cli.jsx                 # Terminal window
+│   ├── Dock.jsx                 # macOS-style dock with magnification
+│   └── ...
+├── assets/
+│   └── icons/                  # Custom macOS-style SVG icons
+├── App.jsx
+└── main.jsx
+\```
+
+## 🚀 Getting Started
+
+Clone the repo and install dependencies:
+
+\```bash
+git clone https://github.com/deveshgour2/mac-os-portfolio.git
+cd mac-os-portfolio
+npm install
+\```
+
+Run the development server:
+
+\```bash
+npm run dev
+\```
+
+Build for production:
+
+\```bash
+npm run build
+\```
+
+## 📦 Deployment
+
+This project is deployed on [Vercel](https://vercel.com/). Every push to `main` triggers an automatic deployment.
+
+## 🙋‍♂️ Author
+
+**Devesh Gour**
+- GitHub: [@deveshgour2](https://github.com/deveshgour2)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
